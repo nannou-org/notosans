@@ -1,0 +1,11 @@
+[package]
+name = "notosans"
+version = "0.1.0"
+authors = ["mitchmindtree <mitchell.nordine@gmail.com>"]
+description = "A simple crate providing several of Google's Noto Sans true type fonts as slices of bytes."
+readme = "README.md"
+keywords = ["font", "noto", "sans", "truetype"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/nannou-org/notosans.git"
+homepage = "https://github.com/nannou-org/notosans"
+edition = "2018"
