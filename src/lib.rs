@@ -4,17 +4,25 @@
 //! with these fonts.
 
 /// Noto Sans Bold true-type font bytes.
-pub const BOLD_TTF: &[u8] =
-    include_bytes!(concat!(env!("CARGO_MANIFEST_DIR"), "/fonts/NotoSans-Bold.ttf"));
+pub const BOLD_TTF: &[u8] = include_bytes!(concat!(
+    env!("CARGO_MANIFEST_DIR"),
+    "/fonts/NotoSans-Bold.ttf"
+));
 
 /// Noto Sans Bold Italic true-type font bytes.
-pub const BOLD_ITALIC_TTF: &[u8] =
-    include_bytes!(concat!(env!("CARGO_MANIFEST_DIR"), "/fonts/NotoSans-BoldItalic.ttf"));
+pub const BOLD_ITALIC_TTF: &[u8] = include_bytes!(concat!(
+    env!("CARGO_MANIFEST_DIR"),
+    "/fonts/NotoSans-BoldItalic.ttf"
+));
 
 /// Noto Sans Italic true-type font bytes.
-pub const ITALIC_TTF: &[u8] =
-    include_bytes!(concat!(env!("CARGO_MANIFEST_DIR"), "/fonts/NotoSans-Italic.ttf"));
+pub const ITALIC_TTF: &[u8] = include_bytes!(concat!(
+    env!("CARGO_MANIFEST_DIR"),
+    "/fonts/NotoSans-Italic.ttf"
+));
 
 /// Noto Sans Regular true-type font bytes.
-pub const REGULAR_TTF: &[u8] =
-    include_bytes!(concat!(env!("CARGO_MANIFEST_DIR"), "/fonts/NotoSans-Regular.ttf"));
+pub const REGULAR_TTF: &[u8] = include_bytes!(concat!(
+    env!("CARGO_MANIFEST_DIR"),
+    "/fonts/NotoSans-Regular.ttf"
+));
